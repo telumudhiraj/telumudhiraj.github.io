@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*outline-color: white;
+    /*outline-style: solid;*/
+    border: 8px solid white;
+    padding: 0 2px;
+    margin: 0;
+    max-width: 100%;
+    flex-wrap: nowrap;
+    /*flex-wrap: wrap;*/
+}
+
+.container {
+    display: flexbox;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    /*border: 10px solid white;
+    /* margin: 0 auto;
+    padding: 10px 25px;
+    background: #fff;*/
+}
+
+/*h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2.5em;
+    font-weight: 10;
+    /*border: 10px solid white;
+    /*font-weight: 100;
+    font-size: 20px;
+    background: orange;
+}
+
+*/
+#heading {
+    color: white;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+p {
+    font-weight: lighter;
+}
+
+#main {
+    display: flex;
+    justify-content: stretch;
+    align-content: initial;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    heigth: 60%;
+    background: rgb(66, 82, 65, 0.747);
+    /*padding: 10px 0;
+    border-radius: 10px;*/
+}
+
+#main nav {
+    /*background: rgba(66, 82, 65, 0.747);*/
+    color: white;
+    height: auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: baseline;
+    outline-color: white;
+    outline-style: solid;
+
+    /*text-align: center;
+    idth: 100%;
+    margin: 0 auto;
+    padding: 10px 25px;*/
+    /*border: 10px solid white;
+    /*border-radius: 10px;*/
+}
+
+#main nav p {
+    padding: 0;
+    margin: 10px;
+
+}
+
+#main article {
+    background-color: rgb(178, 189, 159);
+    color: white;
+    height: auto;
+    width: 60%;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    outline-color: white;
+    outline-style: solid;
+    /*border: 10px solid white;
+    /*text-align: center;
+   
+    /*padding: 10px 0;
+   border-radius: 10px;*/
+}
+
+#main article p {
+    padding: 0;
+    margin: 10px;
+
+}
+
+#main aside {
+    /*background: rgba(66, 82, 65, 0.747);
+    /*(3, 83, 3, 0.411);*/
+    color: white;
+    height: auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    outline-color: white;
+    outline-style: solid;
+    /* border: 10px solid white;
+   text-align: center;
+    border-radius: 10px;*/
+}
+
+#main aside p {
+    padding: 0;
+    margin: 10px;
+
+}
+
+
+#foot {
+    color: white;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#foot p {
+    padding: 0;
+    margin: 10px;
+
+}
