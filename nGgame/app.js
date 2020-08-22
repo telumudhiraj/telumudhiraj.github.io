@@ -1,4 +1,5 @@
 var count = 1;
+var 1 st = 1
 
 function box() {
     var num = document.getElementById("num").value;

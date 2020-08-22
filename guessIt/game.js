@@ -2,7 +2,7 @@ const $submitButton = document.getElementById("submit");
 const $message = document.getElementById("message");
 const $lives = document.getElementById("lives");
 
-var guessNum = Math.random(Math.random() * 100);
+var guessNum = Math.floor(Math.random() * 100);
 var lives = 10;
 var message;
 
@@ -21,6 +21,6 @@ $submitButton.onclick = () => {
 
 
     $message.style.display = "inherit";
-    $message.innerHtml = message;
+    $message.innerHTML = message;
     $lives.innerHTML = lives;
 };
