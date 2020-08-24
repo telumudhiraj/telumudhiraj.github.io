@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    background: #edeef0;
+}
+
+.same {
+    background: url("assets/bc.jpg");
+    background-size: 100%;
+    /*max-width: 100%;*/
+    /*height: 100px;*/
+}
+
+#im {
+    padding: 0 10px;
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+
+}
+
+
+.nav-link {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #f05136;
+}
+
+
+#author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#author article p,
+h1 {
+    color: white;
+    letter-spacing: 0.6px;
+    margin: 20px;
+}
+
+#author article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+#author img {
+    width: 400px;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#a {
+    letter-spacing: 100px;
+    font-size: 2em;
+}
+
+#pr {
+    letter-spacing: 100px;
+    font-size: 1.8em;
+}
+
+
+#bio {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+
+#bio article * {
+    margin: 20px;
+}
+
+.break {
+    display: block;
+}
+
+#bio img {
+    width: 300px;
+    height: 400px;
+    /*height: 100%;
+    padding: 0px;
+    margin: 0px;*/
+    /*width: 500px;
+    height: 840px;
+    /
+    border-radius: 50px;
+
+    border-radius: 20% 20% 2 20%;
+    
+    margin-top: 6em;
+    margin-left: 300px;
+    margin-bottom: 15em;
+    /*margin: 700px 0;
+    
+    opacity: 0.8;
+    filter: alpha(opacity=10);
+    padding: 100px 10% 2em 105px;
+    */
+    /*top: 100px;
+    */
+    position: relative;
+}
+
+#bio article {
+    background: white;
+    height: 550px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    border-radius: 15px;
+    margin: 50px;
+    position: absolute;
+    /*margin-top: 5rem;
+    margin-left: 700px;
+    margin-bottom: 400px;*/
+    bottom: 10000;
+    top: 800px;
+    left: 300px;
+    right: 50px;
+    padding: 10px;
+}
+
+#bio article h2 {
+    font-weigtht: bolder;
+    font-size: 8em;
+    color: solid black;
+}
+
+#bio article p {
+    font-size: 1.8em;
+    color: grey;
+}
+
+
+#portfolio {
+    /*background: url("assets/pexels-photo-452738.jpeg");*/
+    background-color: white;
+    color: white;
+}
+
+#portfolio img {
+    width: 100%;
+    /*opacity: 0.8;
+    /*filter: alpha(opacity=30);
+    color-interpolation-filters: linearRGB;
+    */
+    column-fill: pink;
+    position: relative;
+
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*padding: 50px;*/
+}
+
+#portfolio div {
+    display: flex;
+    /*justify-content: space-around;
+    */
+    flex-wrap: wrap;
+    margin: 10px 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 2400px;
+    bottom: 2px;
+}
+
+#portfolio h3,
+p,
+hr {
+    margin-bottom: 20px;
+}
+
+#portfolio div article {
+    background: white;
+    color: black;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#portfolio div article p {
+    padding: 0 5px;
+
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    color: black;
+    font-size: 2.5em;
+    padding: 10px;
+    border-radius: 50px/35px;
+    border-color: black;
+}
+
+
+.link-button:hover {
+    color: white
+}
+
+h1,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 6em;
+}
